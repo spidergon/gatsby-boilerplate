@@ -1,0 +1,51 @@
+{
+  "name": "gatsby-boilerplate",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "starter",
+    "boilerplate"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-pattern '/node_modules/*' --ignore-pattern '/public/*' --ignore-pattern '.cache/*' -o ./eslint_result.html -f html ."
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.9.4",
+    "gatsby": "^2.0.67",
+    "gatsby-image": "^2.0.25",
+    "gatsby-plugin-manifest": "^2.0.12",
+    "gatsby-plugin-offline": "^2.0.19",
+    "gatsby-plugin-react-helmet": "^3.0.4",
+    "gatsby-plugin-sharp": "^2.0.15",
+    "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-source-filesystem": "^2.0.12",
+    "gatsby-transformer-sharp": "^2.1.9",
+    "react": "next",
+    "react-dom": "next",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^4.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-jsx": "^6.0.2",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "0.0.0",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spidergon/gatsby-boilerplate"
+  }
+}
